@@ -72,6 +72,6 @@ A API oferece recursos para manipulação de:
 A aplicação AutoManager está sendo ajustada para contemplar todos os níveis do Richardson Maturity Model, garantindo:
 
 1. Nível 0 – RPC over HTTP: Endpoints simples para execução de ações, já implementados nos CRUDs.
-2. Nível 1 – Recursos (Resources): Cada entidade possui seu endpoint dedicado (Clientes, Endereços, Telefones, Documentos).
+2. Nível 1 – Recursos (Resources): Cada entidade possui seu endpoint dedicado.
 3. Nível 2 – HTTP Verbs: Uso correto de métodos HTTP (GET, POST, PUT, DELETE) para operações CRUD.
 4. Nível 3 – HATEOAS: Implementação de links relacionados para navegação entre recursos, utilizando RepresentationModel do Spring HATEOAS.
